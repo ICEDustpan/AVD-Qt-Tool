@@ -21,3 +21,9 @@ void MainWindow::on_bt_screen_clicked()
     Screen d;
     d.exec();
 }
+
+//通过调用linux命令播放音乐
+void MainWindow::on_bt_music_clicked()
+{
+    system("aplay /music/music.wav");
+}
