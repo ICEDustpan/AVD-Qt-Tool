@@ -40,6 +40,19 @@
      <string>Music</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="bt_network">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>20</y>
+      <width>120</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Network</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

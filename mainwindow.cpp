@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <screen.h>
+#include <network.h>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -26,4 +27,12 @@ void MainWindow::on_bt_screen_clicked()
 void MainWindow::on_bt_music_clicked()
 {
     system("aplay /music/music.wav");
+}
+
+
+//跳转到 network ui 界面
+void MainWindow::on_bt_network_clicked()
+{
+    Network d;
+    d.exec();
 }

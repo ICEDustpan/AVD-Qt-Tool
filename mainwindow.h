@@ -20,6 +20,8 @@ private slots:
 
     void on_bt_music_clicked();
 
+    void on_bt_network_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

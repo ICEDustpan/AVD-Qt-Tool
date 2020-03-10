@@ -14,13 +14,16 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    screen.cpp
+    screen.cpp \
+    network.cpp
 
 HEADERS  += mainwindow.h \
-    screen.h
+    screen.h \
+    network.h
 
 FORMS    += mainwindow.ui \
-    screen.ui
+    screen.ui \
+    network.ui
 
 RESOURCES += \
     resources/picture/gif.qrc
