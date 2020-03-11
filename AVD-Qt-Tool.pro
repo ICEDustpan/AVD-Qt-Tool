@@ -15,15 +15,18 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     screen.cpp \
-    network.cpp
+    network.cpp \
+    softkeyboard.cpp
 
 HEADERS  += mainwindow.h \
     screen.h \
-    network.h
+    network.h \
+    softkeyboard.h
 
 FORMS    += mainwindow.ui \
     screen.ui \
-    network.ui
+    network.ui \
+    softkeyboard.ui
 
 RESOURCES += \
     resources/picture/gif.qrc

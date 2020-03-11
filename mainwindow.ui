@@ -53,6 +53,19 @@
      <string>Network</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="bt_softkeyboard">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>160</y>
+      <width>120</width>
+      <height>75</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Soft keyboard</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">

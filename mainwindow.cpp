@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <screen.h>
 #include <network.h>
+#include <softkeyboard.h>
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -34,5 +35,13 @@ void MainWindow::on_bt_music_clicked()
 void MainWindow::on_bt_network_clicked()
 {
     Network d;
+    d.exec();
+}
+
+
+//跳转到Soft keyboard ui 界面
+void MainWindow::on_bt_softkeyboard_clicked()
+{
+    Softkeyboard d;
     d.exec();
 }

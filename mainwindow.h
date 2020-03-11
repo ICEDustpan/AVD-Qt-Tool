@@ -22,6 +22,8 @@ private slots:
 
     void on_bt_network_clicked();
 
+    void on_bt_softkeyboard_clicked();
+
 private:
     Ui::MainWindow *ui;
 };
