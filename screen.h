@@ -15,6 +15,9 @@ public:
     explicit Screen(QWidget *parent = 0);
     ~Screen();
 
+private slots:
+    void on_bt_quit_screen_clicked();
+
 private:
     Ui::Screen *ui;
 };
