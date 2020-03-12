@@ -30,4 +30,5 @@ FORMS    += mainwindow.ui \
 
 RESOURCES += \
     resources/picture/gif.qrc \
-    resources/picture/background.qrc
+    resources/picture/background.qrc \
+    resources/button/button.qrc
