@@ -72,6 +72,8 @@ private slots:
 
     void on_bt_delete_clicked();
 
+    void on_bt_quit_softkeyboard_clicked();
+
 private:
     Ui::Softkeyboard *ui;
 };
