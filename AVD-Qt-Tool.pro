@@ -29,4 +29,5 @@ FORMS    += mainwindow.ui \
     softkeyboard.ui
 
 RESOURCES += \
-    resources/picture/gif.qrc
+    resources/picture/gif.qrc \
+    resources/picture/background.qrc
