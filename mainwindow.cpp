@@ -11,6 +11,11 @@ MainWindow::MainWindow(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    //设置图片为主窗口背景
+    QPixmap pixmap = QPixmap(":background/main.jpg").scaled(this->size());
+    QPalette palette(this->palette());
+    palette.setBrush(QPalette::Background, QBrush(pixmap));
+    this->setPalette(palette);
 
     //bt_screen 自定义按钮样式
     QIcon myicon_screen; //新建myicon_screen对象
