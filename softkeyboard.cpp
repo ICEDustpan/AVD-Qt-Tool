@@ -6,6 +6,8 @@ Softkeyboard::Softkeyboard(QWidget *parent) :
     ui(new Ui::Softkeyboard)
 {
     ui->setupUi(this);
+    //移除边框
+    setWindowFlags(Qt::FramelessWindowHint);
 }
 
 Softkeyboard::~Softkeyboard()

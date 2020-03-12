@@ -10,6 +10,9 @@ Network::Network(QWidget *parent) :
 {
     ui->setupUi(this);
 
+    //移除边框
+    setWindowFlags(Qt::FramelessWindowHint);
+
     //执行linux ping 命令
     system("echo `ping -c 1 www.baidu.com` > /software/network.txt");
 

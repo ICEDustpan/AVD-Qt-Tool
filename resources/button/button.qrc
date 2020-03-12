@@ -4,5 +4,6 @@
         <file>bt_notework.png</file>
         <file>bt_screen.png</file>
         <file>bt_music.png</file>
+        <file>bt_quit.png</file>
     </qresource>
 </RCC>
