@@ -21,6 +21,9 @@ public:
     explicit Network(QWidget *parent = 0);
     ~Network();
 
+private slots:
+    void on_bt_quit_notework_clicked();
+
 private:
     Ui::Network *ui;
 };
